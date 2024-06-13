@@ -1,0 +1,14 @@
+[17-Jan-2024 00:04:41 America/Chicago] PHP Warning:  Undefined variable $j in /home1/bili6769/public_html/WAT2023/finalAssignment/dbConnection.php on line 4
+[17-Jan-2024 00:04:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'bili6769_b'@'localhost' (using password: YES) in /home1/bili6769/public_html/WAT2023/finalAssignment/dbConnection.php:7
+Stack trace:
+#0 /home1/bili6769/public_html/WAT2023/finalAssignment/dbConnection.php(7): mysqli_connect('localhost', 'bili6769_b', Object(SensitiveParameterValue), 'bili6769_773567...')
+#1 /home1/bili6769/public_html/WAT2023/finalAssignment/validateLogin.php(2): include('/home1/bili6769...')
+#2 {main}
+  thrown in /home1/bili6769/public_html/WAT2023/finalAssignment/dbConnection.php on line 7
+[17-Jan-2024 00:20:10 America/Chicago] PHP Warning:  Undefined variable $j in /home1/bili6769/public_html/WAT2023/finalAssignment/dbConnection.php on line 4
+[17-Jan-2024 00:20:10 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'bili6769_b'@'localhost' (using password: YES) in /home1/bili6769/public_html/WAT2023/finalAssignment/dbConnection.php:7
+Stack trace:
+#0 /home1/bili6769/public_html/WAT2023/finalAssignment/dbConnection.php(7): mysqli_connect('localhost', 'bili6769_b', Object(SensitiveParameterValue), 'bili6769_773567...')
+#1 /home1/bili6769/public_html/WAT2023/finalAssignment/register.php(2): include('/home1/bili6769...')
+#2 {main}
+  thrown in /home1/bili6769/public_html/WAT2023/finalAssignment/dbConnection.php on line 7
